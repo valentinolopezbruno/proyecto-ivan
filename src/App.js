@@ -1,6 +1,7 @@
 import './App.css';
 import servicioProducos from './servicios/servicio.productos';
 import React, {useEffect} from 'react'
+import imajen from './img/iphones.jpg';
 
 
 function App() {
@@ -72,14 +73,14 @@ function App() {
 
 <a href=""><div className="contenedor-destacado">
   <div className="destacado" >
-  <img src=""></img>
+  <img src={imajen}></img>
     <div id="productosDestacados"></div></div>
   </div>
 </a>
   
 
  <a href=""><div className="destacado">
-    <img src="./img/magsafe.png" alt=""/>
+    <img src={"image.png"} alt=""/>
     <div id="productosDestacados"></div>
   </div>
 </a>
@@ -100,7 +101,7 @@ function App() {
 <h3 className="titulo-destacados">Iphone</h3>
 <div className="scroll-contenedor">
 <div className="scroll">
-  <div className="producto">
+<div className="producto">
   
     <div id="producto"></div>
     <a href="">Comprar!</a>
@@ -119,7 +120,7 @@ function App() {
   </div>
 
   <div className="producto">
-    <img src="./img/iphone14.png" alt=""/>
+    <img src={imajen} alt=""/>
     <h4>Iphone 13</h4>
     <a href="">Comprar!</a>
   </div>
