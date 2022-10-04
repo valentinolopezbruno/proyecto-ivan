@@ -1,9 +1,10 @@
 
 import './App.css';
 
+
 function App() {
   return (
-    <div classNameName="App">
+    <div className="App">
 
 
                 <div className="redes">
@@ -70,20 +71,20 @@ function App() {
 
 <a href=""><div className="contenedor-destacado">
   <div className="destacado" >
-    <img src="./img/iphone13.jpg" alt=""/>
+  <img src=""></img>
     <div id="productosDestacados"></div></div>
   </div>
 </a>
   
 
- <a href=""><div classNameName="destacado">
+ <a href=""><div className="destacado">
     <img src="./img/magsafe.png" alt=""/>
     <div id="productosDestacados"></div>
   </div>
 </a>
 
 <a href=""> <div className="destacado">
-    <img src="./img/airpods.png" alt=""/>
+    <img src="./img/iphones.jpg" alt=""/>
     <div id="productosDestacados"></div>
   </div>
 </a>
@@ -99,7 +100,7 @@ function App() {
 <div className="scroll-contenedor">
 <div className="scroll">
   <div className="producto">
-    <img src="./img/iphone14.png" alt=""/>
+  
     <div id="producto"></div>
     <a href="">Comprar!</a>
   </div>
@@ -209,7 +210,7 @@ function App() {
 <div className="scroll-contenedor">
 <div className="scroll">
   <div className="producto">
-    <img src="./img/airpods.png" alt=""/>
+    <img src='./img/iphone14.png'></img>
     <h4>Iphone 13</h4>
     <a href="">Comprar!</a>
   </div>
@@ -227,7 +228,7 @@ function App() {
   </div>
 
   <div className="producto">
-    <img src="./img/airpods.png" alt=""/>
+    <img src="./img/iphone14.png" alt=""/>
     <h4>Iphone 13</h4>
     <a href="">Comprar!</a>
   </div>
